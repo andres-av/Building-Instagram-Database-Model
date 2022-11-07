@@ -1,17 +1,18 @@
-# StarWars blog database
+# Create the database model for Instagram
 
-**Important**: To do this activity you need to `fork` [this repo](https://github.com/breatheco-de/exercise-starwars-data-modeling) into your **Github** account and then open the forked repo on Gitpod.
+**Important**: To do this activity you need to `fork` this repo into your **Github** account and then open the forked repo on Gitpod.
 
-Inside the `src/models.py` file you will find a couple of classes describing an example database.
+Inside he `src/models.py` file you will find a couple of classes describing an example database.
 
 Here is a 4min video explaining what UML is: [https://www.youtube.com/watch?v=UI6lqHOVHic](https://www.youtube.com/watch?v=UI6lqHOVHic)
 
-We are going to be creating the Entity Relationship Diagram for your StarWars Blog Database, a very similar diagram to this one:
+We are going to be creating the Entity Relationship Diagram for Instagram Database, a very similar diagram to this one:
 
-![Starwars Diagram](https://github.com/breatheco-de/exercise-starwars-data-modeling/blob/master/assets/example.png?raw=true)
+![Instagram Diagram](https://github.com/breatheco-de/exercise-instagram-data-modeling/blob/master/assets/example.png?raw=true)
 [Click to open diagram](https://app.quickdatabasediagrams.com/#/d/LxNXQZ)
 
 > 🔥 You can use this FREE tool to practice your diagram for the first time: https://app.quickdatabasediagrams.com/#/d/
+
 
 ## 💻 Installation
 
@@ -26,18 +27,11 @@ We are going to be creating the Entity Relationship Diagram for your StarWars Bl
 
 ## 📝Instructions
 
-Your Job is to update the `src/models.py` file with the code needed to replicate the StarWars data model.
+Your Job is to update the `src/models.py` file with the code needed to replicate the instagram data model.
 
 The project is using the SQLAlchemy Python library to generate the database.
 
-- Your project must have a table `User` that will represent your blog users.
-- Your blog users will be able to login and save their favorite planets and characters.
-- The database should store the user favorites.
-- The database should store characters and planets.
-- What other tables do you think a blog like this might have?
-- What properties should go inside the user? or inside the Character or Favorite table?
-- What are the relationships between those tables?
+- What tables do you think instagram might have on its database: E.g: Post, User, etc.?
+- What properties should go inside the user? or inside the Post table?
 - Please add at least 4 models with all of its properties.
-- Generate the `diagram.png` file at the end by running `$ python3 models.py` on the console.
-
-
+- Degenerate the diagram.png file at the end by running `$ python3 models.py` on the console.
